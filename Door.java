@@ -1,7 +1,11 @@
 public class Door {
-    String state = "open";
+    private State state;
 
-    public void getstate() {
-        System.out.println(state);
+    Door() {
+        state = State.OPEN;
+    }
+
+    public void changeState(State a) {
+        state = a;
     }
 }
