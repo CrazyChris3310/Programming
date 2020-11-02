@@ -1,8 +1,8 @@
 public class Door {
     private State state;
 
-    Door() {
-        state = State.OPEN;
+    Door(State a) {
+        state = a;
     }
 
     public void changeState(State a) {
