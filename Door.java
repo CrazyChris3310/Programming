@@ -2,7 +2,7 @@ public class Door {
     private State state;
 
     Door() {
-        state = State.CLOSED; // CHANGE THIS
+        state = State.OPEN;
     }
 
     public void changeState(State a) {
